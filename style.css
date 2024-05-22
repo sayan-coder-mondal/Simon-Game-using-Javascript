@@ -1,0 +1,143 @@
+#btn{
+    background-color: aqua;
+    width: 100px;
+    height: 45px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin:50px auto 30px;
+    cursor: pointer;
+}
+#round,#score{
+    font-size: 60px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+    /* animation: red1 1s 1; */
+    /* animation: name duration timing-function delay infinite direction fill-mode; */
+}
+.blue{
+    background-color: blue;
+    /* animation: blue1 1s 1; */
+}
+.yellow{
+    background-color: yellow;
+    /* animation: yellow1 1s 1; */
+}
+.green{
+    background-color: green;
+    /* animation: green1 1s 1; */
+}
+/* @keyframes red1 {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: rgb(255, 152, 152);
+    }
+}
+@keyframes blue1 {
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: rgb(179, 179, 254);
+    }
+}
+@keyframes yellow1 {
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: rgb(251, 251, 185);
+    }
+}
+@keyframes green1 {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: rgb(185, 250, 185);
+    }
+} */
+.red2{
+    background-color: rgb(255, 200, 200);
+}
+.blue2{
+    background-color: rgb(200, 200, 255)
+}
+.yellow2{
+    background-color: rgb(255, 255, 200);
+}
+.green2{
+    background-color: rgb(200, 255, 200);
+}
+#result{
+    text-align: center;
+    color :brown;
+    font-size: 50px;
+    margin: 20px;
+}
+@media screen and (max-width:600px) {
+    .box{
+        width: 150px;
+        height: 150px;
+        margin: 24px;
+    }
+    #round,#score{
+        font-size: 40px;
+        text-align: center;
+    }
+    #result{
+        text-align: center;
+        color :brown;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:460px) {
+    .box{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    #round,#score{
+        font-size: 30px;
+        text-align: center;
+    }
+    #result{
+        text-align: center;
+        color :brown;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:320px) {
+    .box{
+        width: 70px;
+        height: 70px;
+        margin: 15px;
+    }
+    #round,#score{
+        font-size: 20px;
+        text-align: center;
+    }
+    #result{
+        text-align: center;
+        color :brown;
+        font-size: 15px;
+    }
+}
